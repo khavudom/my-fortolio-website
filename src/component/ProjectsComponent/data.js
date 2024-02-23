@@ -27,8 +27,8 @@ export const arrayCombination = [
   {
     projectName: "To Do List App",
     index: 4,
-    gitHubSrc: "https://github.com/RuenChanPiseth/to-do-li-for-beginner",
-    productSrc: "https://ruenchanpiseth.github.io/to-do-li-for-beginner/",
+    gitHubSrc: "https://github.com/RuenChanPiseth/todo-list-for-beginner",
+    productSrc: "https://ruenchanpiseth.github.io/todo-list-for-beginner/",
     explaination:
       'HTML Structure:The HTML file defines the basic structure of the To-Do list, including a title, an input field, an "Add" button, and a list container.CSS Styling:CSS styles are applied to enhance the appearance and layout of the To-Do list elements, providing a visually appealing interface.JavaScript Functionality:Initialization:JavaScript selects necessary DOM elements, retrieves existing list items from local storage, and populates the list.Adding Items:The addItem function adds a new list item when the user clicks "Add", saving it to local storage.Deleting Items:Event delegation handles clicks on delete buttons, removing the corresponding list item and updating local storage.Keyboard Shortcut:Users can press Enter to add an item, in addition to clicking the "Add" button.',
   },
