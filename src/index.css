@@ -52,6 +52,7 @@ a.active {
   margin: 0.34rem auto;
   transition: all 0.2s ease-in;
 }
+
 .bar-container.active span.bar {
   position: absolute;
 }
@@ -62,7 +63,7 @@ a.active {
   transform: rotate(-45deg);
 }
 .bar-container.active span.bar:nth-child(2) {
-  display: none;
+  opacity: 0;
 }
 
 .bar-container:not(.active) span.bar:nth-child(2) {

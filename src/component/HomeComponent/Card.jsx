@@ -107,7 +107,7 @@ const Card = () => {
                 : setActive1("showall")
             }
             ref={btn1}
-            className="p-2 mt-2 cursor-pointer bg-transparent border-none text-gray-300 hover">
+            className="p-2 mt-2 pl-1 cursor-pointer bg-transparent border-none text-gray-300 hover text-[13px]">
             {active1 === "showall" ? "Show less" : "Show More..."}
           </button>
         </div>
@@ -185,7 +185,7 @@ const Card = () => {
               : setActive2("showall")
           }
           ref={btn2}
-          className="p-2 mt-2 cursor-pointer bg-transparent border-none text-gray-300 hover">
+          className="p-2 mt-2 pl-1 cursor-pointer bg-transparent border-none text-gray-300 hover text-[13px]">
           {active2 === "showall" ? "Show less" : "Show More..."}
         </button>
       </div>

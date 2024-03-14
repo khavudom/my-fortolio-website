@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Card from "./HomeComponent/Card";
 import History from "./HomeComponent/History";
 import BackgroundStudy from "./HomeComponent/BackgroundStudy";

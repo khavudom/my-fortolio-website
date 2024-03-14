@@ -1,7 +1,15 @@
-import React from "react";
-import { arrayCombination } from "./data";
-
+import React, { useEffect, useState } from "react";
+const api = "https://expres-server-test-v1.vercel.app";
 const BasicWeb = () => {
+  const [data, setData] = useState([]);
+  const [couter, setCounter] = useState(0);
+  useEffect(() => {
+    fetch(api)
+      .then((res) => res.json())
+      .then((data) => setData(data))
+      .catch((error) => console.error(error));
+  }, []);
+
   return (
     <div>
       <div>
@@ -18,10 +26,17 @@ const BasicWeb = () => {
 
       {/* 1th */}
       <div className="flex flex-col">
-        {arrayCombination.map(
-          ({ projectName, index, gitHubSrc, productSrc, explaination }) => {
+        {data.map(
+          ({
+            projectName,
+            index,
+            gitHubSrc,
+            productSrc,
+            explaination,
+            _id,
+          }) => {
             return (
-              <div className="w-full py-4" key={index}>
+              <div className="w-full py-4" key={_id}>
                 <article className=" project-view">
                   <div className="sm:float-left sm:pr-4">
                     <h2>
