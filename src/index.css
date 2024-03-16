@@ -238,6 +238,7 @@ a.active {
   border: 1px solid #3a77f3;
   background-color: rgb(54, 54, 54);
 }
+
 /*  */
 @media screen and (min-width: 640px) {
   .project-view {
