@@ -6,7 +6,6 @@ import tamneak from "../assets/namneak.png";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";

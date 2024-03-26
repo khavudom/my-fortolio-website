@@ -46,11 +46,13 @@ const BasicWeb = () => {
             }) => {
               return (
                 <div className="w-full py-4" key={_id}>
-                  <article className=" project-view">
+                  <article className="project-view">
                     <div className="sm:float-left sm:pr-4">
-                      <h2>
-                        {index}. {projectName}
-                      </h2>
+                      <div>
+                        <h2>
+                          {index}. {projectName}
+                        </h2>
+                      </div>
                       <div className="my-4  max-w-[550px] max-h-[550px] ] ">
                         <iframe
                           className="w-full h-full bg-white min-h-[200px]"
