@@ -1,3 +1,4 @@
+//
 const api = "https://porfolio-node-backend.vercel.app";
 import { useEffect } from "react";
 export const getAllData = (setIsLoading, setData) => {

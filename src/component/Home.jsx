@@ -1,9 +1,5 @@
 import React from "react";
-import Card from "./HomeComponent/Card";
-import History from "./HomeComponent/History";
-import BackgroundStudy from "./HomeComponent/BackgroundStudy";
-import Job from "./HomeComponent/Job";
-import Greeting from "./HomeComponent/Greeting";
+import { Card, History, BackgroundStudy, Job, Greeting } from "./import";
 
 const Home = () => {
   return (

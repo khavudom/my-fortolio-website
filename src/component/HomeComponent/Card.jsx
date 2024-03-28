@@ -131,6 +131,7 @@ const Card = () => {
                 ? "fa-solid fa-xmark active"
                 : "fa-solid fa-xmark hidden"
             }></i>
+
           <div>
             <p>
               {" "}
